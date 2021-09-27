@@ -40,3 +40,26 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 0rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+.navigation .link{
+    color: white;
+    
+}
+.non-bullet{
+    text-align: right;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0rem 1rem;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
