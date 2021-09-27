@@ -3,6 +3,7 @@
     --primary-color:
     #5B21B6;
     --dark-gray:#6B7280;
+    --off-white-gray:#D1D5DB;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -84,4 +85,17 @@ hr{
 }
 
 /* section */
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--off-white-gray);
+}
+
+/* footer */
 
